@@ -1,0 +1,13 @@
+; nokiasdk.def : Declares the module parameters for the DLL.
+
+LIBRARY      "nokiasdk"
+DESCRIPTION  'nokiasdk Windows Dynamic Link Library'
+
+EXPORTS
+ Nokia_Open 
+ Nokia_Close 
+ Nokia_GetSMS 
+ Nokia_DelSMS 
+ Nokia_SendSMS
+ Nokia_GetFile
+ Nokia_SMSSendStatus

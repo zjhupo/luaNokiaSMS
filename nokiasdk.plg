@@ -1,0 +1,46 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: nokiasdk - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP3A3A.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /I "D:\Program Files\Lua\5.1\include" /I "D:\Program Files\Lua\5.1\lib" /I "API Headers" /I "API Headers\Common Functions API" /I "e:\Program Files\Lua\5.1\lib" /I "API Headers\Content Access API" /I "API Headers\Device Management API" /I "e:\Program Files\Lua\5.1\include" /I "API Headers\File System API" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_WINDLL" /FR"Release/" /Fp"Release/nokiasdk.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\hup\projects\VSS\03项目资产\01研发类\36集团公司自动拨测\03代码\98辅助工具\nokiasdk\nokiasdk.cpp"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP3A3A.tmp" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP3A3B.tmp" with contents
+[
+/nologo /subsystem:windows /dll /incremental:no /pdb:"Release/luaNokiaSMS.pdb" /machine:I386 /def:".\nokiasdk.def" /out:"Release/luaNokiaSMS.dll" /implib:"Release/luaNokiaSMS.lib" 
+".\Release\nokiasdk.obj"
+".\Release\StdAfx.obj"
+".\Release\nokiasdk.res"
+".\API Headers\Common Functions API\CommonFunctionsAPI.lib"
+".\API Headers\Content Access API\ContentAccessAPI.lib"
+".\API Headers\Device Management API\DeviceManagementAPI.lib"
+".\API Headers\File System API\FileSystemAPI.lib"
+"..\..\..\..\..\..\..\..\..\Program Files\Lua\5.1\lib\lua51.lib"
+]
+Creating command line "link.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP3A3B.tmp"
+<h3>Output Window</h3>
+Compiling...
+nokiasdk.cpp
+Linking...
+   Creating library Release/luaNokiaSMS.lib and object Release/luaNokiaSMS.exp
+luaNokiaSMS.exp : warning LNK4070: /OUT:nokiasdk.dll directive in .EXP differs from output filename "Release/luaNokiaSMS.dll"; ignoring directive
+LINK : warning LNK4089: all references to "SHELL32.dll" discarded by /OPT:REF
+LINK : warning LNK4089: all references to "comdlg32.dll" discarded by /OPT:REF
+Creating command line "bscmake.exe /nologo /o"Release/nokiasdk.bsc"  ".\Release\StdAfx.sbr" ".\Release\nokiasdk.sbr""
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+luaNokiaSMS.dll - 0 error(s), 3 warning(s)
+</pre>
+</body>
+</html>
